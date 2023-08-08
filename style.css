@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --russian-violet: #4e0250;
+    --mari-gras: #801a68;
+    --jade: #04a777;
+    --ultra-violet: #645986;
+    --poppy: #df2945;
+}
+
+/* Universal Styles */
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 18px;
+    font-family: Garamond;
+}
+.container {
+    max-width: 960px;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+th, td {
+    border: 2px solid black;
+}
+.underline {
+    text-decoration: underline;
+} 
+/* Header */
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+/* Nav */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--russian-violet);
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem;
+}
+nav ul li a:hover {
+    background-color: var(--ultra-violet);
+    border-radius: 10px;
+}
+nav .active {
+    background-color: var(--mari-gras);
+    border-radius: 10px;
+}
+/* Sections */
+
+/* Semantic Elements*/
+.semantic .left {
+    text-align: center;
+}
+
+/* Style Guide */
+
+.color-container {
+    margin: 1rem 0;
+    width: 100%;
+    display: block;
+    border: 2px solid black;
+    padding: 10px;
+}
+.color-panel {
+    text-align: center;
+    display: inline-block;
+    width: 19%;
+}
+.color-panel p {
+    padding: 5px;
+}
+.russian-violet{
+    background-color: var(--russian-violet);
+    color: #d4d4d4;
+}
+.mardi-gras {
+    background-color: var(--mari-gras);
+    color: #adadad;
+}
+.jade {
+    background-color: var(--jade);
+    color: #2c2c2c;
+}
+.ultra-violet {
+    background-color: var(--ultra-violet);
+    color: #1d1d1d;
+}
+.poppy {
+    background-color: var(--poppy);
+    color: #2c2c2c;
+}
+
+/* Fonts */
+.fonts-container {
+    border: 2px solid black;
+    margin: 1rem 0;
+    width: 100%;
+    display: block;
+    padding: 10px;
+}
+
+.fonts-panel {
+    border: 1px solid black;
+    margin: 1rem 0;
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+}
+.libre-baskerville{
+    font-family: 'Libre Baskerville';
+}
+.merriweather {
+    font-family: 'Merriweather';
+}
+/* Text Styles */
+.text-styles-container {
+    margin: 1rem 0;
+    width: 100%;
+    display: block;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+/* Footer */
