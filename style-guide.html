@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jay's Web Dev Cheatsheet</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Jay's Web Dev Cheatsheet</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="note-sheet.html">Note Sheet</a></li>
+                    <li><a href="#" class="active">Style Guide</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2 class="container secondary-title">Jay's Style Guide</h2>
+        <section class="container color-guide">
+            <h3>Colors</h3>
+            <p>Using a color palette is important to me because I like to make sure that all of the colors I want to use are complimentary. I generally make my palettes 5 colors total, and personally, I like to pick a shade of green to use as the base of my palette since it is my favorite color, I'm a fan of pretty much any shade of green!</p>
+            <table>
+                <caption>Here are some color palettes I like.</caption>
+                <thead>
+                    <tr>
+                        <th>Palette Name</th>
+                        <th>Color 1</th>
+                        <th>Color 2</th>
+                        <th>Color 3</th>
+                        <th>Color 4</th>
+                        <th>Color 5</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jade Surprise</td>
+                        <td class="russian-violet left">
+                            <p class="color-label">Russian Violet</p>
+                            <p class="color-values">hex#4e0250<br>rgb(78, 2, 80)</p>
+                        </td>
+                        <td class="mardi-gras middle">
+                            <p class="color-label">Mardi Gras</p>
+                            <p class="color-values">hex#801a86<br>rgb(128, 26, 134)</p>
+                        </td>
+                        <td class="jade middle">
+                            <p class="color-label">Jade</p>
+                            <p class="color-values">hex#04a777<br>rgb(4, 167, 119)</p>
+                        </td>
+                        <td class="ultra-violet middle">
+                            <p class="color-label">Ultra Violet</p>
+                            <p class="color-values">hex#645986<br>rgb(100, 89, 134)</p>
+                        </td>
+                        <td class="poppy right">
+                            <p class="color-label">Poppy</p>
+                            <p class="color-values">hex#df2935<br>rgb(223, 41, 53)</p>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+        <section class="container fonts-guide">
+            <h3>Fonts</h3>
+            <p>The font this website uses is Garamond, it is a serif typeface created by sixteenth-century Parisian engraver <a href="https://en.wikipedia.org/wiki/Claude_Garamond" target="_blank">Claude Garamond</a>. It is a CSS Websafe Font that is generally used for printed books, but I like it for its readability.</p>
+            <p>A CSS Websafe Font is one that is available natively through HTML/CSS for use on webpages.  It is generally a good idea to choose a fallback font that is one of the CSS Websafe Fonts in case an imported font does not work for the users browser. Even though HTML includes the &lt;em&gt; and &lt;strong&gt; to <em>italicize</em> and <strong>bold</strong> text, you will still need to include the bold and italic files if you are including the font in the websites files, and not just linking it from Google Fonts.  In these situations, it is highly recommended to use a fallback font in case the included font does not load for the user.</p>
+            <p>Fonts can also have different sizes for the same font size. Make sure you take that into account when designing the site and picking the font family and fallback fonts. The font size of the fonts below are all 18px in size.</p>
+
+            <div class="fonts-panel garamond">
+                <h4><em>Garamond</em> by <em>Claude Garamond</em></h4>
+                <p class="underline">A CSS Websafe Font.</p>
+                <p>The quick brown fox jumps over the lazy dog.</p>
+                <p><strong>The quick brown fox jumps over the lazy dog.</strong></p>
+                <p><em>The quick brown fox jumps over the lazy dog.</em></p>
+            </div>
+            <div class="fonts-panel libre-baskerville">
+                <h4><em>Libre Baskerville</em> by <em>Impallari Type</em></h4>
+                <p class="underline">A font from Google Fonts.</p>
+                <p>The quick brown fox jumps over the lazy dog.</p>
+                <p><strong>The quick brown fox jumps over the lazy dog.</strong></p>
+                <p><em>The quick brown fox jumps over the lazy dog.</em></p>
+            </div>
+            <div class="fonts-panel merriweather">
+                <h4><em>Merriweather</em> by <em>Sorkin Type</em></h4>
+                <p class="underline">A font included in the website files.</p>
+                <p>The quick brown fox jumps over the lazy dog.</p>
+                <p><strong>The quick brown fox jumps over the lazy dog.</strong></p>
+                <p><em>The quick brown fox jumps over the lazy dog.</em></p>
+            </div>
+        </section>
+        <section class="container text-styles-guide">
+            <h3>Text Styles</h3>
+            <ul class="text-styles-panel">
+                <h3>Website Default</h3>
+                <li>Font: Garamond</li>
+                <li>Font Size: 18px</li>
+            </ul>
+            <ul class="text-styles-panel">
+                <h1>H1: Website Title</h1>
+                <li>Font: Merriweather</li>
+                <li>Font Size: 32px</li>
+                <li>Text-Align: center</li>
+            </ul>
+            <ul class="text-styles-panel">
+                <h2>H2: Page Title</h2>
+                <li>Font: Merriweather</li>
+                <li>Font Size: 24px</li>
+                <li>Text-Align: center</li>
+            </ul>
+            <ul class="text-styles-panel">
+                <h3>H3: Section Subheading</h3>
+                <li>Font: Garamond</li>
+                <li>Font Size: 18px</li>
+                <li>Text-Align: left</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>

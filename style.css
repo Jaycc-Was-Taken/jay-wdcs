@@ -23,24 +23,25 @@ html {
     display: block;
     padding: 10px;
 }
-
-table {
-    border-collapse: collapse;
-    width: 80%;
-    margin: 0 auto;
-}
-th, td {
-    border: 2px solid black;
-}
 .underline {
     text-decoration: underline;
-} 
+}
+.libre-baskerville{
+    font-family: 'Libre Baskerville';
+}
+.merriweather {
+    font-family: 'Merriweather';
+}
 /* Header */
 h1 {
+    font-family: 'Merriweather';
     text-align: center;
+    font-size: 32px;
 }
 h2 {
+    font-family: 'Merriweather';
     text-align: center;
+    font-size: 24px;
 }
 /* Nav */
 nav ul {
@@ -70,52 +71,66 @@ nav .active {
 }
 /* Sections */
 
-/* Semantic Elements*/
-table .left {
-    text-align: center;
+/* Sementic Elements Table */
+.semantic-elements table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+.semantic-elements th, td {
+    border: 2px solid black;
 }
 /* Style Guide */
-.style-guide {
+.color-guide {
     border: 2px solid black;
 }
-.color-container {
-    margin: 1rem 0;
-    width: 100%;
-    display: block;
-    border: 2px solid black;
-    padding: 10px;
+.color-guide table {
+    border-collapse: collapse;
 }
-.color-panel {
+.color-guide tbody {
     text-align: center;
-    display: inline-block;
-    width: 19%;
 }
-.color-panel p {
-    padding: 5px;
+.color-guide th {
+    border: 2px solid black;
 }
+.color-guide table p {
+    font-size: 16px;
+    margin: 8px;
+}
+.color-guide .left {
+    border-right: none;
+}
+.color-guide .middle {
+    border-left: none;
+    border-right: none;
+}
+.color-guide .right {
+    border-left: none;
+}
+/* Jade Surprise Color Palette */
 .russian-violet{
     background-color: var(--russian-violet);
-    color: #d4d4d4;
+    color: #fff;
 }
 .mardi-gras {
     background-color: var(--mari-gras);
-    color: #adadad;
+    color: #fff;
 }
 .jade {
     background-color: var(--jade);
-    color: #2c2c2c;
 }
 .ultra-violet {
     background-color: var(--ultra-violet);
-    color: #1d1d1d;
 }
 .poppy {
     background-color: var(--poppy);
-    color: #2c2c2c;
 }
 
 /* Fonts */
-
+.fonts-guide {
+    border: 2px solid black;
+}
 
 .fonts-panel {
     border: 1px solid black;
@@ -124,19 +139,22 @@ table .left {
     display: inline-block;
     padding: 10px;
 }
-.libre-baskerville{
-    font-family: 'Libre Baskerville';
-}
-.merriweather {
-    font-family: 'Merriweather';
-}
 /* Text Styles */
-.text-styles-container {
-    margin: 1rem 0;
-    width: 100%;
-    display: block;
+.text-styles-guide {
     border: 2px solid black;
-    padding: 10px;
+}
+.font-weight-panel {
+    border: 2px solid black;
+    padding: 5px;
+}
+.text-styles-panel {
+    border: 2px solid black;
+}
+.text-styles-panel h1 {
+    text-align: unset;
+}
+.text-styles-panel h2 {
+    text-align: unset;
 }
 
 /* Footer */
