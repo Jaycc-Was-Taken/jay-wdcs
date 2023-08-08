@@ -18,7 +18,12 @@ html {
 }
 .container {
     max-width: 960px;
+    margin: 1rem 0;
+    width: 100%;
+    display: block;
+    padding: 10px;
 }
+
 table {
     border-collapse: collapse;
     width: 80%;
@@ -69,9 +74,10 @@ nav .active {
 .semantic .left {
     text-align: center;
 }
-
 /* Style Guide */
-
+.style-guide {
+    border: 2px solid black;
+}
 .color-container {
     margin: 1rem 0;
     width: 100%;
@@ -109,13 +115,7 @@ nav .active {
 }
 
 /* Fonts */
-.fonts-container {
-    border: 2px solid black;
-    margin: 1rem 0;
-    width: 100%;
-    display: block;
-    padding: 10px;
-}
+
 
 .fonts-panel {
     border: 1px solid black;
